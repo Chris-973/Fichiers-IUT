@@ -1,0 +1,24 @@
+Fichier de test de grep
+On cherche des chaines de caracteres
+Recherche de motifs dans un fichier
+chaine = adresses IP
+192.165.5.12
+192.165.5.144
+192.165.5.0
+192.165.5.255
+192.165.5.3
+192.165.5.1a
+Chaines cpp
+chaine avec des C au milieu
+*.cpp
+wcpp
+*wcpp
+*cpp 
+Chaines bizarres
+a=$(ls)
+"a=$(ls)"
+i="a=$(ls)"
+=
+"a=
+"a=$"
+"a=$
