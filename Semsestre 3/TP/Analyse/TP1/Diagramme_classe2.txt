@@ -1,0 +1,39 @@
+@startuml
+
+Personne <|- Employe
+Employe "*" -- "0..1" Agence
+Agence "*" <-* "1" Banque
+Banque -- "*" CompteBancaire
+Agence -> CompteBancaire #line.dashed
+
+Class Personne {
+    numero
+    nom
+    adresse
+}
+
+Class Employe {
+    salaire
+    numINSEE
+}
+
+Class Banque {
+    numero
+    capital
+    adresse
+}
+
+Class Agence {
+    numero
+    nom
+    adresse
+    ville
+}
+
+Class CompteBancaire {
+    numero
+    solde
+    dateOuverture
+}
+
+@enduml

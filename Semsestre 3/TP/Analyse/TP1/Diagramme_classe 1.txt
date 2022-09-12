@@ -1,0 +1,16 @@
+@startuml
+
+FormInscription ..|> InscriCtrl
+InscriCtrl ..|> FicheEtudiant
+InscriCtrl ..|> Catalogue
+InscriCtrl ..|> Cours
+Catalogue "1" -- "0" Cours : Contient
+
+FormInscription : login()
+FormInscription : choisir()
+FormInscription : ajouter()
+    
+InscriCtrl : getInfo()
+InscriCtrl : chercherCours()
+InscriCtrl : inscrire()
+@enduml
