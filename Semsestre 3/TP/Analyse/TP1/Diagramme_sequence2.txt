@@ -1,0 +1,13 @@
+@startuml
+
+actor Utilisateur
+
+Utilisateur -> Action : getParent()
+Action --> Utilisateur
+
+Utilisateur -> myMenu : add()
+myMenu --> Utilisateur
+
+hide footbox
+header Page Christopher Marie-Angélique groupe 2B
+@enduml

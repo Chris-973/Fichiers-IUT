@@ -15,4 +15,5 @@ Client --|> (Acheter)
 (PayPal) --> (Payer) #line.dashed : <<extends>>
 
 hide footbox
+header Page Christopher Marie-Angélique groupe 2B
 @enduml

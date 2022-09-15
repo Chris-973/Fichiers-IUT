@@ -13,4 +13,6 @@ FormInscription : ajouter()
 InscriCtrl : getInfo()
 InscriCtrl : chercherCours()
 InscriCtrl : inscrire()
+
+header Page Christopher Marie-Angélique groupe 2B
 @enduml

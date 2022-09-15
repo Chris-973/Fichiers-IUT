@@ -29,4 +29,5 @@ InscriptionCtrl -> "math:Cours" : inscrire(e)
 InscriptionCtrl --> FormInscription : ok
 
 hide footbox
+header Page Christopher Marie-Angélique groupe 2B
 @enduml 

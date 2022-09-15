@@ -1,0 +1,9 @@
+@startuml
+
+ActionListAgenceBancaire "*"--"*" Action : Contenir
+ActionListAgenceBancaire --|> GenericAction 
+
+Action : getParent()
+
+header Page Christopher Marie-Angélique groupe 2B
+@enduml

@@ -36,4 +36,5 @@ Class CompteBancaire {
     dateOuverture
 }
 
+header Page Christopher Marie-Angélique groupe 2B
 @enduml
