@@ -1,0 +1,13 @@
+CREATE OR REPLACE PROCEDURE AjouterComposition
+(
+VnumMatch
+Vnomj
+Vprej
+Vmaillot
+) IS
+-- variables
+BEGIN
+-- instructions
+EXCEPTION
+-- instructions en cas d’erreur
+END; 
