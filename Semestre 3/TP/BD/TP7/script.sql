@@ -42,18 +42,19 @@ END;
 -- 1.5
 -- cas d'insert 
 INSERT INTO Marquer (nm, tps, nj, action, point)
-VALUES (15, '10', 108, 'Essais', 5);
+VALUES (15, '11', 108, 'Essais', 5);
 
 -- cas de delete
 DELETE FROM Marquer
-WHERE tps = 10
-    AND nj = 108;
+WHERE nm = 10
+    AND tps = '11';
 
 -- cas d'update
-    UPDATE Marquer
-    SET nj = 14
-    WHERE nm = 15
-        AND nj = 116;
+UPDATE Marquer
+SET Action = 'Transformation',
+    Point = 2
+WHERE nm = 15
+    AND tps = '11';
 
 -- 2.1
 ALTER TABLE Equipe
@@ -110,6 +111,7 @@ WHERE tps = 28
 
 -- cas d'update
 UPDATE Marquer
-SET nj = 14
+SET Action = 'Transformation',
+    Point = 2
 WHERE nm = 15
-    AND nj = 116;
+    AND tps = '61';
